@@ -9,6 +9,7 @@ on:
     paths-ignore:
       - '.github/*'
       - '*.md'
+  workflow_dispatch:
 
 jobs:
   build:
